@@ -5,8 +5,7 @@
  <path>boeing747-400-jw.ac</path>
 
  <offsets>
-   <x-m>24.50</x-m>
-   <z-m>0.35</z-m>
+   <z-m>0</z-m>
  </offsets>
 
  <!-- Object Selection -->
