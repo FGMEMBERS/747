@@ -8,6 +8,24 @@
    <z-m>0.35</z-m>
  </offsets>
 
+ <!-- Object Selection -->
+
+ <animation>
+  <type>select</type>
+  <object-name>FlapRightInner.1</object-name>
+  <object-name>FlapLeftInner.1</object-name>
+  <object-name>FlapRightOuter.1</object-name>
+  <object-name>FlapLeftOuter.1</object-name>
+  <condition>
+   <greater-than>
+    <property>/surface-positions/flap-pos-norm</property>
+    <value>0.01</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <!-- Object Movement -->
+
  <animation>
   <type>rotate</type>
   <object-name>GearWingLeftWheels</object-name>
@@ -177,6 +195,24 @@
    <z>0</z>
   </axis>
  </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>GearNose</object-name>
+  <property>/surface-positions/rudder-pos-norm</property>
+  <factor>-35</factor>
+  <center>
+   <x-m>-16.75</x-m>
+   <y-m>0.0</y-m>
+   <z-m>-0.65</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
 
  <animation>
   <type>rotate</type>
@@ -686,24 +722,6 @@
    <x-m>4.23</x-m>
    <y-m>0.0</y-m>
    <z-m>-2.10</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>0</y>
-   <z>1</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>NoseWheel</object-name>
-  <object-name>NoseWheelFork</object-name>
-  <property>/surface-positions/rudder-pos-norm</property>
-  <factor>35</factor>
-  <center>
-   <x-m>-2.42</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.65</z-m>
   </center>
   <axis>
    <x>0</x>
