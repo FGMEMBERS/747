@@ -51,6 +51,20 @@
   </view>
 
   <chase-distance-m type="double" archive="y">-90.0</chase-distance-m>
+
+  <!-- These are complete fabrications.  What are the real flap detent
+       settings on a 747-400? -->
+  <flaps>
+   <setting>0.00</setting>
+   <setting>0.01</setting>
+   <setting>0.02</setting>
+   <setting>0.05</setting>
+   <setting>0.10</setting>
+   <setting>0.33</setting>
+   <setting>0.67</setting>
+   <setting>1.00</setting>
+  </flaps>
+
  </sim>
 
  <autopilot>
