@@ -24,7 +24,87 @@
   </condition>
  </animation>
 
+ <animation>
+  <type>select</type>
+  <object-name>GearWingLeft</object-name>
+  <object-name>GearWingRight</object-name>
+  <condition>
+   <greater-than>
+    <property>/gear/gear[1]/position-norm</property>
+    <value>0.01</value>
+   </greater-than>
+  </condition>
+ </animation>
+
  <!-- Object Movement -->
+
+ <animation>
+  <type>spin</type>
+  <object-name>EngineFan.1</object-name>
+  <factor>67</factor>
+  <property>/engines/engine[0]/n1</property>
+  <center>
+   <x-m>8.21</x-m>
+   <y-m>-20.39</y-m>
+   <z-m>-1.92</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>EngineFan.2</object-name>
+  <factor>67</factor>
+  <property>/engines/engine[1]/n1</property>
+  <center>
+   <x-m>8.21</x-m>
+   <y-m>-11.30</y-m>
+   <z-m>-2.48</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>EngineFan.4</object-name>
+  <factor>67</factor>
+  <property>/engines/engine[3]/n1</property>
+  <center>
+   <x-m>8.21</x-m>
+   <y-m>20.46</y-m>
+   <z-m>-1.92</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>EngineFan.3</object-name>
+  <factor>67</factor>
+  <property>/engines/engine[2]/n1</property>
+  <center>
+   <x-m>8.21</x-m>
+   <y-m>11.40</y-m>
+   <z-m>-2.45</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
 
  <animation>
   <type>rotate</type>
@@ -36,7 +116,7 @@
   <max-deg>80</max-deg>
   <center>
    <x-m>4.70</x-m>
-   <y-m>-3.69</y-m>
+   <y-m>-4.44</y-m>
    <z-m>-4.61</z-m>
   </center>
   <axis>
@@ -54,8 +134,8 @@
   <offset-deg>90</offset-deg>
   <center>
    <x-m>4.70</x-m>
-   <y-m>-3.70</y-m>
-   <z-m>-1.75</z-m>
+   <y-m>-4.44</y-m>
+   <z-m>-1.25</z-m>
   </center>
   <axis>
    <x>1</x>
@@ -74,7 +154,7 @@
   <max-deg>80</max-deg>
   <center>
    <x-m>4.70</x-m>
-   <y-m>3.69</y-m>
+   <y-m>4.44</y-m>
    <z-m>-4.61</z-m>
   </center>
   <axis>
@@ -92,8 +172,8 @@
   <offset-deg>-90</offset-deg>
   <center>
    <x-m>4.70</x-m>
-   <y-m>3.70</y-m>
-   <z-m>-1.75</z-m>
+   <y-m>4.44</y-m>
+   <z-m>-1.25</z-m>
   </center>
   <axis>
    <x>1</x>
@@ -112,7 +192,7 @@
   <max-deg>80</max-deg>
   <center>
    <x-m>8.35</x-m>
-   <y-m>-2.49</y-m>
+   <y-m>-2.08</y-m>
    <z-m>-4.61</z-m>
   </center>
   <axis>
@@ -130,7 +210,7 @@
   <offset-deg>90</offset-deg>
   <center>
    <x-m>8.35</x-m>
-   <y-m>-2.49</y-m>
+   <y-m>-2.08</y-m>
    <z-m>-1.75</z-m>
   </center>
   <axis>
@@ -150,7 +230,7 @@
   <max-deg>80</max-deg>
   <center>
    <x-m>8.35</x-m>
-   <y-m>2.49</y-m>
+   <y-m>2.08</y-m>
    <z-m>-4.61</z-m>
   </center>
   <axis>
@@ -168,7 +248,7 @@
   <offset-deg>-90</offset-deg>
   <center>
    <x-m>8.35</x-m>
-   <y-m>2.49</y-m>
+   <y-m>2.08</y-m>
    <z-m>-1.75</z-m>
   </center>
   <axis>
@@ -213,6 +293,66 @@
   </axis>
  </animation>
 
+ <animation>
+  <type>translate</type>
+  <object-name>GearNose</object-name>
+  <property>/gear/gear[0]/compression-norm</property>
+  <factor>0.6</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>GearWingLeft</object-name>
+  <property>/gear/gear[1]/compression-norm</property>
+  <factor>0.6</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>GearBodyLeft</object-name>
+  <property>/gear/gear[2]/compression-norm</property>
+  <factor>0.6</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>GearBodyRight</object-name>
+  <property>/gear/gear[3]/compression-norm</property>
+  <factor>0.6</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>GearWingRight</object-name>
+  <property>/gear/gear[4]/compression-norm</property>
+  <factor>0.6</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
 
  <animation>
   <type>rotate</type>
@@ -220,9 +360,9 @@
   <property>/surface-positions/left-aileron-pos-norm</property>
   <factor>-30</factor> <!-- check -->
   <center>
-   <x-m>18.74</x-m>
-   <y-m>-24.79</y-m>
-   <z-m>0.29</z-m>
+   <x-m>19.11</x-m>
+   <y-m>-24.44</y-m>
+   <z-m>0.37</z-m>
   </center>
   <axis>
    <x>0.7</x>
@@ -237,9 +377,9 @@
   <property>/surface-positions/left-aileron-pos-norm</property>
   <factor>-30</factor> <!-- check -->
   <center>
-   <x-m>11.12</x-m>
-   <y-m>-12.12</y-m>
-   <z-m>-0.77</z-m>
+   <x-m>11.97</x-m>
+   <y-m>-11.98</y-m>
+   <z-m>-0.63</z-m>
   </center>
   <axis>
    <x>0.0</x>
@@ -254,9 +394,9 @@
   <property>/surface-positions/left-aileron-pos-norm</property>
   <factor>30</factor> <!-- check -->
   <center>
-   <x-m>18.74</x-m>
-   <y-m>24.79</y-m>
-   <z-m>0.29</z-m>
+   <x-m>19.11</x-m>
+   <y-m>24.44</y-m>
+   <z-m>0.37</z-m>
   </center>
   <axis>
    <x>-0.7</x>
@@ -271,9 +411,9 @@
   <property>/surface-positions/left-aileron-pos-norm</property>
   <factor>30</factor> <!-- check -->
   <center>
-   <x-m>11.12</x-m>
-   <y-m>12.12</y-m>
-   <z-m>-0.77</z-m>
+   <x-m>11.97</x-m>
+   <y-m>11.98</y-m>
+   <z-m>-0.63</z-m>
   </center>
   <axis>
    <x>0.0</x>
@@ -381,11 +521,11 @@
   <factor>45</factor> <!-- check -->
   <center>
    <x-m>9.50</x-m>
-   <y-m>-8.30</y-m>
+   <y-m>-4.30</y-m>
    <z-m>-3.20</z-m>
   </center>
   <axis>
-   <x>-0.3</x>
+   <x>-0.25</x>
    <y>1</y>
    <z>-0.1</z>
   </axis>
@@ -399,11 +539,11 @@
   <factor>43</factor> <!-- check -->
   <center>
    <x-m>9.50</x-m>
-   <y-m>-8.30</y-m>
+   <y-m>-4.30</y-m>
    <z-m>-2.70</z-m>
   </center>
   <axis>
-   <x>-0.3</x>
+   <x>-0.25</x>
    <y>1</y>
    <z>-0.1</z>
   </axis>
@@ -415,8 +555,8 @@
   <property>/surface-positions/flap-pos-norm</property>
   <factor>20</factor> <!-- check -->
   <center>
-   <x-m>9.50</x-m>
-   <y-m>-8.30</y-m>
+   <x-m>8.50</x-m>
+   <y-m>-4.30</y-m>
    <z-m>-2.70</z-m>
   </center>
   <axis>
@@ -426,13 +566,25 @@
   </axis>
  </animation>
 
+ <animation>
+  <type>translate</type>
+  <object-name>FlapLeftInner.1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>0.1</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
  <!-- Flaps, left Outer -->
 
  <animation>
   <type>rotate</type>
   <object-name>FHHousingLeftOuterR1</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>30</factor> <!-- check -->
+  <factor>25</factor> <!-- check -->
   <center>
    <x-m>14.33</x-m>
    <y-m>-18.54</y-m>
@@ -450,7 +602,7 @@
   <type>rotate</type>
   <object-name>FHHousingLeftOuterR2</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>30</factor> <!-- check -->
+  <factor>25</factor> <!-- check -->
   <center>
    <x-m>12.54</x-m>
    <y-m>-14.98</y-m>
@@ -469,32 +621,31 @@
   <property>/surface-positions/flap-pos-norm</property>
   <factor>42</factor> <!-- check -->
   <center>
-   <x-m>13.60</x-m>
+   <x-m>14.60</x-m>
    <y-m>-17.14</y-m>
-   <z-m>-2.00</z-m>
+   <z-m>-1.50</z-m>
   </center>
   <axis>
-   <x>-0.5</x>
+   <x>-0.6</x>
    <y>1</y>
-   <z>-0.4</z>
+   <z>-0.1</z>
   </axis>
  </animation>
-
 
  <animation>
   <type>rotate</type>
   <object-name>FlapLeftOuter.2</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>40</factor> <!-- check -->
+  <factor>37</factor> <!-- check -->
   <center>
-   <x-m>13.60</x-m>
+   <x-m>14.60</x-m>
    <y-m>-17.14</y-m>
-   <z-m>-1.00</z-m>
+   <z-m>-1.50</z-m>
   </center>
   <axis>
-   <x>-0.5</x>
+   <x>-0.6</x>
    <y>1</y>
-   <z>-0.4</z>
+   <z>-0.1</z>
   </axis>
  </animation>
 
@@ -502,18 +653,19 @@
   <type>rotate</type>
   <object-name>FlapLeftOuter.1</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>25</factor> <!-- check -->
+  <factor>30</factor> <!-- check -->
   <center>
-   <x-m>13.60</x-m>
+   <x-m>14.60</x-m>
    <y-m>-17.14</y-m>
-   <z-m>-1.00</z-m>
+   <z-m>-1.50</z-m>
   </center>
   <axis>
-   <x>-0.5</x>
+   <x>-0.6</x>
    <y>1</y>
-   <z>-0.2</z>
+   <z>-0.1</z>
   </axis>
  </animation>
+
 
  <!-- Flaps, right Inner -->
 
@@ -521,7 +673,7 @@
   <type>rotate</type>
   <object-name>FHHousingRightInnerR2</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>35</factor> <!-- check -->
+  <factor>30</factor> <!-- check -->
   <center>
    <x-m>9.80</x-m>
    <y-m>9.06</y-m>
@@ -539,7 +691,7 @@
   <type>rotate</type>
   <object-name>FHHousingRightInnerR1</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>35</factor> <!-- check -->
+  <factor>30</factor> <!-- check -->
   <center>
    <x-m>8.60</x-m>
    <y-m>4.91</y-m>
@@ -559,16 +711,15 @@
   <factor>45</factor> <!-- check -->
   <center>
    <x-m>9.50</x-m>
-   <y-m>8.30</y-m>
+   <y-m>4.30</y-m>
    <z-m>-3.20</z-m>
   </center>
   <axis>
-   <x>0.3</x>
+   <x>0.25</x>
    <y>1</y>
    <z>0.1</z>
   </axis>
  </animation>
-
 
  <animation>
   <type>rotate</type>
@@ -577,11 +728,11 @@
   <factor>43</factor> <!-- check -->
   <center>
    <x-m>9.50</x-m>
-   <y-m>8.30</y-m>
+   <y-m>4.30</y-m>
    <z-m>-2.70</z-m>
   </center>
   <axis>
-   <x>0.3</x>
+   <x>0.25</x>
    <y>1</y>
    <z>0.1</z>
   </axis>
@@ -593,8 +744,8 @@
   <property>/surface-positions/flap-pos-norm</property>
   <factor>20</factor> <!-- check -->
   <center>
-   <x-m>9.50</x-m>
-   <y-m>8.30</y-m>
+   <x-m>8.50</x-m>
+   <y-m>4.30</y-m>
    <z-m>-2.70</z-m>
   </center>
   <axis>
@@ -604,13 +755,26 @@
   </axis>
  </animation>
 
+ <animation>
+  <type>translate</type>
+  <object-name>FlapRightInner.1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>0.1</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+
  <!-- Flaps, Right Outer -->
 
  <animation>
   <type>rotate</type>
   <object-name>FHHousingRightOuterR2</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>30</factor> <!-- check -->
+  <factor>25</factor> <!-- check -->
   <center>
    <x-m>14.33</x-m>
    <y-m>18.54</y-m>
@@ -627,7 +791,7 @@
   <type>rotate</type>
   <object-name>FHHousingRightOuterR1</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>30</factor> <!-- check -->
+  <factor>25</factor> <!-- check -->
   <center>
    <x-m>12.54</x-m>
    <y-m>14.98</y-m>
@@ -647,14 +811,14 @@
   <property>/surface-positions/flap-pos-norm</property>
   <factor>42</factor> <!-- check -->
   <center>
-   <x-m>13.60</x-m>
+   <x-m>14.60</x-m>
    <y-m>17.14</y-m>
-   <z-m>-2.00</z-m>
+   <z-m>-1.50</z-m>
   </center>
   <axis>
-   <x>0.5</x>
+   <x>0.6</x>
    <y>1</y>
-   <z>0.4</z>
+   <z>0.1</z>
   </axis>
  </animation>
 
@@ -663,16 +827,16 @@
   <type>rotate</type>
   <object-name>FlapRightOuter.2</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>40</factor> <!-- check -->
+  <factor>37</factor> <!-- check -->
   <center>
-   <x-m>13.60</x-m>
+   <x-m>14.60</x-m>
    <y-m>17.14</y-m>
-   <z-m>-1.00</z-m>
+   <z-m>-1.50</z-m>
   </center>
   <axis>
-   <x>0.5</x>
+   <x>0.6</x>
    <y>1</y>
-   <z>0.4</z>
+   <z>0.1</z>
   </axis>
  </animation>
 
@@ -680,16 +844,16 @@
   <type>rotate</type>
   <object-name>FlapRightOuter.1</object-name>
   <property>/surface-positions/flap-pos-norm</property>
-  <factor>25</factor> <!-- check -->
+  <factor>30</factor> <!-- check -->
   <center>
-   <x-m>13.60</x-m>
+   <x-m>14.60</x-m>
    <y-m>17.14</y-m>
-   <z-m>-1.00</z-m>
+   <z-m>-1.50</z-m>
   </center>
   <axis>
-   <x>0.5</x>
+   <x>0.6</x>
    <y>1</y>
-   <z>0.2</z>
+   <z>0.1</z>
   </axis>
  </animation>
 
