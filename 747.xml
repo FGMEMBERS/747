@@ -64,7 +64,7 @@
 <!-- The CF6 engines are rated at 60000 lbs thrust, flat rated to 33 -->
 <!-- degrees C.  Corrected to YASim's standard atmosphere temperature -->
 <!-- of 288.2 kelvins, that gives 63737 lbs of nominal thrust. -->
-<jet x="-10.43" y="16.26"  z="-1.20" mass="8000" thrust="63737">
+<jet x="-10.43" y="16.26"  z="-1.20" mass="8000" thrust="63737" egt="840">
   <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
 </jet>
 
