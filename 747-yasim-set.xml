@@ -52,17 +52,19 @@
 
   <chase-distance-m type="double" archive="y">-90.0</chase-distance-m>
 
-  <!-- These are complete fabrications.  What are the real flap detent
-       settings on a 747-400? -->
+  <!-- Flap settings from Jim Brennan (see 01 Feb 2004 post to
+       flightgear-devel) based on UAL 747-400.  Note that there is no
+       support yet for driving the slats from the same detent
+       settings.  There are also unmodelled locks at settings 1 and
+       20, see post for details. -->
   <flaps>
-   <setting>0.00</setting>
-   <setting>0.01</setting>
-   <setting>0.02</setting>
-   <setting>0.05</setting>
-   <setting>0.10</setting>
-   <setting>0.33</setting>
-   <setting>0.67</setting>
-   <setting>1.00</setting>
+   <setting>0.000</setting>
+   <setting>0.000</setting> <!-- Flaps 1: 66% Slats only at this detent -->
+   <setting>0.167</setting> <!-- Flaps 5: 100% Slats -->
+   <setting>0.333</setting> <!-- Flaps 10: takeoff -->
+   <setting>0.667</setting> <!-- Flaps 20: takeoff, go-around -->
+   <setting>0.833</setting> <!-- Flaps 25: landing -->
+   <setting>1.000</setting> <!-- Flaps 30: landing -->
   </flaps>
 
  </sim>
