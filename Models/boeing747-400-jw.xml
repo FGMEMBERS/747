@@ -300,6 +300,363 @@
   </axis>
  </animation>
 
+
+ <!-- Flaps, left Inner -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FHHousingLeftInnerR1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>35</factor> <!-- check -->
+  <center>
+   <x-m>9.80</x-m>
+   <y-m>-9.06</y-m>
+   <z-m>-1.40</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FHHousingLeftInnerR2</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>35</factor> <!-- check -->
+  <center>
+   <x-m>8.60</x-m>
+   <y-m>-4.91</y-m>
+   <z-m>-1.94</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapLeftInner.3</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>45</factor> <!-- check -->
+  <center>
+   <x-m>9.50</x-m>
+   <y-m>-8.30</y-m>
+   <z-m>-3.20</z-m>
+  </center>
+  <axis>
+   <x>-0.3</x>
+   <y>1</y>
+   <z>-0.1</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapLeftInner.2</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>43</factor> <!-- check -->
+  <center>
+   <x-m>9.50</x-m>
+   <y-m>-8.30</y-m>
+   <z-m>-2.70</z-m>
+  </center>
+  <axis>
+   <x>-0.3</x>
+   <y>1</y>
+   <z>-0.1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapLeftInner.1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>20</factor> <!-- check -->
+  <center>
+   <x-m>9.50</x-m>
+   <y-m>-8.30</y-m>
+   <z-m>-2.70</z-m>
+  </center>
+  <axis>
+   <x>-0.3</x>
+   <y>1</y>
+   <z>-0.1</z>
+  </axis>
+ </animation>
+
+ <!-- Flaps, left Outer -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FHHousingLeftOuterR1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>30</factor> <!-- check -->
+  <center>
+   <x-m>14.33</x-m>
+   <y-m>-18.54</y-m>
+   <z-m>-0.37</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FHHousingLeftOuterR2</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>30</factor> <!-- check -->
+  <center>
+   <x-m>12.54</x-m>
+   <y-m>-14.98</y-m>
+   <z-m>-0.59</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapLeftOuter.3</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>42</factor> <!-- check -->
+  <center>
+   <x-m>13.60</x-m>
+   <y-m>-17.14</y-m>
+   <z-m>-2.00</z-m>
+  </center>
+  <axis>
+   <x>-0.5</x>
+   <y>1</y>
+   <z>-0.4</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapLeftOuter.2</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>40</factor> <!-- check -->
+  <center>
+   <x-m>13.60</x-m>
+   <y-m>-17.14</y-m>
+   <z-m>-1.00</z-m>
+  </center>
+  <axis>
+   <x>-0.5</x>
+   <y>1</y>
+   <z>-0.4</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapLeftOuter.1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>25</factor> <!-- check -->
+  <center>
+   <x-m>13.60</x-m>
+   <y-m>-17.14</y-m>
+   <z-m>-1.00</z-m>
+  </center>
+  <axis>
+   <x>-0.5</x>
+   <y>1</y>
+   <z>-0.2</z>
+  </axis>
+ </animation>
+
+ <!-- Flaps, right Inner -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FHHousingRightInnerR2</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>35</factor> <!-- check -->
+  <center>
+   <x-m>9.80</x-m>
+   <y-m>9.06</y-m>
+   <z-m>-1.40</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FHHousingRightInnerR1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>35</factor> <!-- check -->
+  <center>
+   <x-m>8.60</x-m>
+   <y-m>4.91</y-m>
+   <z-m>-1.94</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapRightInner.3</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>45</factor> <!-- check -->
+  <center>
+   <x-m>9.50</x-m>
+   <y-m>8.30</y-m>
+   <z-m>-3.20</z-m>
+  </center>
+  <axis>
+   <x>0.3</x>
+   <y>1</y>
+   <z>0.1</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapRightInner.2</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>43</factor> <!-- check -->
+  <center>
+   <x-m>9.50</x-m>
+   <y-m>8.30</y-m>
+   <z-m>-2.70</z-m>
+  </center>
+  <axis>
+   <x>0.3</x>
+   <y>1</y>
+   <z>0.1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapRightInner.1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>20</factor> <!-- check -->
+  <center>
+   <x-m>9.50</x-m>
+   <y-m>8.30</y-m>
+   <z-m>-2.70</z-m>
+  </center>
+  <axis>
+   <x>0.3</x>
+   <y>1</y>
+   <z>0.1</z>
+  </axis>
+ </animation>
+
+ <!-- Flaps, Right Outer -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FHHousingRightOuterR2</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>30</factor> <!-- check -->
+  <center>
+   <x-m>14.33</x-m>
+   <y-m>18.54</y-m>
+   <z-m>-0.37</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FHHousingRightOuterR1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>30</factor> <!-- check -->
+  <center>
+   <x-m>12.54</x-m>
+   <y-m>14.98</y-m>
+   <z-m>-0.59</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapRightOuter.3</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>42</factor> <!-- check -->
+  <center>
+   <x-m>13.60</x-m>
+   <y-m>17.14</y-m>
+   <z-m>-2.00</z-m>
+  </center>
+  <axis>
+   <x>0.5</x>
+   <y>1</y>
+   <z>0.4</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapRightOuter.2</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>40</factor> <!-- check -->
+  <center>
+   <x-m>13.60</x-m>
+   <y-m>17.14</y-m>
+   <z-m>-1.00</z-m>
+  </center>
+  <axis>
+   <x>0.5</x>
+   <y>1</y>
+   <z>0.4</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>FlapRightOuter.1</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+  <factor>25</factor> <!-- check -->
+  <center>
+   <x-m>13.60</x-m>
+   <y-m>17.14</y-m>
+   <z-m>-1.00</z-m>
+  </center>
+  <axis>
+   <x>0.5</x>
+   <y>1</y>
+   <z>0.2</z>
+  </axis>
+ </animation>
+
 <Disabled>
  <!-- LOD for the model as a whole -->
 
@@ -316,52 +673,6 @@
   <object-name>Cockpit</object-name>
   <min-m>0</min-m>
   <max-m>100</max-m>
- </animation>
-
- <!-- Object Selection -->
-
- <animation>
-  <type>select</type>
-  <object-name>LeftPropellerDisk</object-name>
-  <condition>
-   <greater-than>
-    <property>/engines/engine[0]/rpm</property>
-    <value>1000</value>
-   </greater-than>
-  </condition>
- </animation>
-
- <animation>
-  <type>select</type>
-  <object-name>RightPropellerDisk</object-name>
-  <condition>
-   <greater-than>
-    <property>/engines/engine[1]/rpm</property>
-    <value>1000</value>
-   </greater-than>
-  </condition>
- </animation>
-
- <animation>
-  <type>select</type>
-  <object-name>LeftPropeller</object-name>
-  <condition>
-   <less-than>
-    <property>/engines/engine[0]/rpm</property>
-    <value>1500</value>
-   </less-than>
-  </condition>
- </animation>
-
- <animation>
-  <type>select</type>
-  <object-name>RightPropeller</object-name>
-  <condition>
-   <less-than>
-    <property>/engines/engine[1]/rpm</property>
-    <value>1500</value>
-   </less-than>
-  </condition>
  </animation>
 
  <!-- Object Movement -->
@@ -479,74 +790,8 @@
   </axis>
  </animation>
 
- <animation>
-  <type>rotate</type>
-  <object-name>LeftInnerFlap</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>50</factor> <!-- check -->
-  <center>
-   <x-m>0.8</x-m>
-   <y-m>0</y-m>
-   <z-m>-0.1</z-m>
-  </center>
-  <axis>
-   <x>0.0</x>
-   <y>1</y>
-   <z>0.0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>LeftOuterFlap</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>50</factor> <!-- check -->
-  <center>
-   <x-m>0.8</x-m>
-   <y-m>0</y-m>
-   <z-m>-0.1</z-m>
-  </center>
-  <axis>
-   <x>0.02</x>
-   <y>1</y>
-   <z>-0.05</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>RightInnerFlap</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>50</factor> <!-- check -->
-  <center>
-   <x-m>0.8</x-m>
-   <y-m>0</y-m>
-   <z-m>-0.1</z-m>
-  </center>
-  <axis>
-   <x>0.00</x>
-   <y>1</y>
-   <z>0.0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>RightOuterFlap</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
-  <factor>50</factor> <!-- check -->
-  <center>
-   <x-m>0.8</x-m>
-   <y-m>0</y-m>
-   <z-m>-0.1</z-m>
-  </center>
-  <axis>
-   <x>0.02</x>
-   <y>1</y>
-   <z>-0.05</z>
-  </axis>
- </animation>
-
 </Disabled>
 </PropertyList>
+
+
 
