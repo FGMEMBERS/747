@@ -264,13 +264,12 @@
   </axis>
  </animation>
 
-
  <animation>
   <type>rotate</type>
   <object-name>ElevatorRightInner</object-name>
   <object-name>ElevatorRightOuter</object-name>
   <property>/surface-positions/elevator-pos-norm</property>
-  <factor>25</factor> <!-- check -->
+  <factor>25</factor>
   <center>
    <x-m>41.68</x-m>
    <y-m>5.35</y-m>
@@ -288,7 +287,7 @@
   <object-name>RudderTop</object-name>
   <object-name>RudderBottom</object-name>
   <property>/surface-positions/rudder-pos-norm</property>
-  <factor>-25</factor> <!-- check -->
+  <factor>-25</factor>
   <center>
    <x-m>41.70</x-m>
    <y-m>0</y-m>
@@ -404,28 +403,6 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>NoseWheel</object-name>
-  <object-name>NoseWheelGear</object-name>
-  <object-name>NoseWheelFork</object-name>
-  <property>/gear/gear[0]/position-norm</property>
-  <factor>120</factor>
-  <offset-deg>-1</offset-deg>
-  <min-deg>-90</min-deg>
-  <max-deg>0</max-deg>
-  <center>
-   <x-m>-2.28</x-m>
-   <y-m>0.0</y-m>
-   <z-m>0.05</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
   <object-name>FrontNoseWheelDoor</object-name>
   <property>/gear/gear[0]/position-norm</property>
   <factor>120</factor>
@@ -481,25 +458,6 @@
    <x>1</x>
    <y>0</y>
    <z>-.05</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>RightWheel</object-name>
-  <object-name>RightGearFrame</object-name>
-  <property>/gear/gear[2]/position-norm</property>
-  <factor>80</factor>
-  <offset-deg>-1</offset-deg>
-  <center>
-   <x-m>0.2</x-m>
-   <y-m>2.0</y-m>
-   <z-m>-0.1</z-m>
-  </center>
-  <axis>
-   <x>1</x>
-   <y>0</y>
-   <z>0</z>
   </axis>
  </animation>
 
@@ -589,9 +547,5 @@
   </axis>
  </animation>
 
-
 </Disabled>
 </PropertyList>
-
-
-
