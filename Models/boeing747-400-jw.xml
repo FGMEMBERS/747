@@ -429,7 +429,6 @@
  <animation>
   <type>rotate</type>
   <object-name>AileronLeftOuter</object-name>
-  <object-name>AileronLeftOuterBottom</object-name>
   <object-name>AileronLeftOuterEdge</object-name>
   <property>/surface-positions/left-aileron-pos-norm</property>
   <factor>-30</factor> <!-- check -->
@@ -448,7 +447,6 @@
  <animation>
   <type>rotate</type>
   <object-name>AileronLeftInner</object-name>
-  <object-name>AileronLeftInnerBottom</object-name>
   <object-name>AileronLeftInnerEdge</object-name>
   <property>/surface-positions/left-aileron-pos-norm</property>
   <factor>-30</factor> <!-- check -->
@@ -467,7 +465,6 @@
  <animation>
   <type>rotate</type>
   <object-name>AileronRightOuter</object-name>
-  <object-name>AileronRightOuterBottom</object-name>
   <object-name>AileronRightOuterEdge</object-name>
   <property>/surface-positions/left-aileron-pos-norm</property>
   <factor>30</factor> <!-- check -->
@@ -486,7 +483,6 @@
  <animation>
   <type>rotate</type>
   <object-name>AileronRightInner</object-name>
-  <object-name>AileronRightInnerBottom</object-name>
   <object-name>AileronRightInnerEdge</object-name>
   <property>/surface-positions/left-aileron-pos-norm</property>
   <factor>30</factor> <!-- check -->
@@ -506,8 +502,6 @@
   <type>rotate</type>
   <object-name>ElevatorLeftInner</object-name>
   <object-name>ElevatorLeftOuter</object-name>
-  <object-name>ElevatorLeftInnerBottom</object-name>
-  <object-name>ElevatorLeftOuterBottom</object-name>
   <object-name>ElevatorLeftInnerEdge</object-name>
   <object-name>ElevatorLeftOuterEdge</object-name>
   <property>/surface-positions/elevator-pos-norm</property>
@@ -528,8 +522,6 @@
   <type>rotate</type>
   <object-name>ElevatorRightInner</object-name>
   <object-name>ElevatorRightOuter</object-name>
-  <object-name>ElevatorRightInnerBottom</object-name>
-  <object-name>ElevatorRightOuterBottom</object-name>
   <object-name>ElevatorRightInnerEdge</object-name>
   <object-name>ElevatorRightOuterEdge</object-name>
   <property>/surface-positions/elevator-pos-norm</property>
