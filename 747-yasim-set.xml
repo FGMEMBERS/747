@@ -32,6 +32,7 @@
   <hud>
    <path>Huds/Custom/default.xml</path>
    <visibility>false</visibility>
+   <enable3d>false</enable3d>
   </hud>
   
   <model>
