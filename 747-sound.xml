@@ -18,22 +18,26 @@
    <volume>
     <property>/engines/engine[0]/prop-thrust</property>
     <type>ln</type>
-    <factor>0.1</factor>
+    <factor>0.07</factor>
+    <offset>0.05</offset>
    </volume>
    <volume>
     <property>/engines/engine[1]/prop-thrust</property>
     <type>ln</type>
-    <factor>0.1</factor>
+    <factor>0.08</factor>
+    <offset>0.05</offset>
    </volume>
    <volume>
     <property>/engines/engine[2]/prop-thrust</property>
     <type>ln</type>
-    <factor>0.1</factor>
+    <factor>0.08</factor>
+    <offset>0.05</offset>
    </volume>
    <volume>
     <property>/engines/engine[3]/prop-thrust</property>
     <type>ln</type>
-    <factor>0.1</factor>
+    <factor>0.08</factor>
+    <offset>0.05</offset>
    </volume>
   </engine>
 
@@ -52,22 +56,26 @@
    <volume>
     <property>/engines/engine[0]/prop-thrust</property>
     <type>ln</type>
-    <factor>0.1</factor>
+    <factor>0.05</factor>
+    <offset>0.1</offset>
    </volume>
    <volume>
     <property>/engines/engine[1]/prop-thrust</property>
     <type>ln</type>
-    <factor>0.1</factor>
+    <factor>0.05</factor>
+    <offset>0.1</offset>
    </volume>
    <volume>
     <property>/engines/engine[2]/prop-thrust</property>
     <type>ln</type>
-    <factor>0.1</factor>
+    <factor>0.05</factor>
+    <offset>0.1</offset>
    </volume>
    <volume>
     <property>/engines/engine[3]/prop-thrust</property>
     <type>ln</type>
-    <factor>0.1</factor>
+    <factor>0.05</factor>
+    <offset>0.1</offset>
    </volume>
 
    <pitch>
@@ -95,7 +103,6 @@
     <offset>0.10</offset>
    </pitch>
   </engine>
-
 
   <rumble>
    <name>rumble</name>
@@ -126,10 +133,10 @@
    <name>gear-lock</name>
    <path>Sounds/gear-lck.wav</path>
    <condition>
-    <greather-than>
+    <less-than>
      <property>/gear/gear[0]/position-norm</property>
-     <value>0.9</value>
-    </greather-than>
+     <value>0.1</value>
+    </less-than>
    </condition>
   </gear>
 
@@ -164,7 +171,7 @@
    <path>Sounds/flaps.wav</path>
    <property>/surface-positions/flap-pos-norm</property>
    <volume>
-    <offset>0.25</offset>
+    <offset>0.5</offset>
    </volume>
   </flap>
 
@@ -202,7 +209,7 @@
     <min>30.0</min>
    </volume>
   </stall>
- 
+
 <!-- no binding yet?
   <click>
    <name>click</name>
@@ -213,5 +220,6 @@
 </fx>
  
 </PropertyList>
+
 
 
