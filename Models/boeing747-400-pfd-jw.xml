@@ -525,7 +525,7 @@
   <object-name>loclabel</object-name>
   <condition>
   <and>
-    <property>/radios/nav[0]/nav-loc</property>
+    <property>/instrumentation/nav[0]/nav-loc</property>
     <equals>
      <property>/autopilot/locks/heading</property>
      <value>nav1-hold</value>
@@ -540,7 +540,7 @@
   <condition>
   <and>
     <equals>
-      <property>/radios/nav[0]/nav-loc</property>
+      <property>/instrumentation/nav[0]/nav-loc</property>
       <value>false</value>
     </equals>
     <equals>
@@ -559,7 +559,7 @@
     <property>/autopilot/locks/altitude</property>
     <value>gs1-hold</value>
    </equals>
-   <property>/radios/nav[0]/has-gs</property>
+   <property>/instrumentation/nav[0]/has-gs</property>
   </condition>
  </animation>
 

@@ -24,7 +24,7 @@
   <object-name>ledloc</object-name>
   <condition>
   <and>
-    <property>/radios/nav[0]/nav-loc</property>
+    <property>/instrumentation/nav[0]/nav-loc</property>
     <property>/autopilot/locks/nav[0]</property>
   </and>
   </condition>
@@ -78,7 +78,7 @@
   <type>select</type>
   <object-name>ledapp</object-name>
   <condition>
-   <property>/radios/nav[0]/has-gs</property>
+   <property>/instrumentation/nav[0]/has-gs</property>
    <equals>
      <property>/autopilot/locks/altitude</property>
      <value>gsq-hold</value>
