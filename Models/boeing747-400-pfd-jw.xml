@@ -4,28 +4,143 @@
  <path>boeing747-400-pfd-jw.ac</path>
 
  <animation>
-  <type>rotate</type>
-  <object-name>vsiarrow</object-name>
-  <property>/instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
+  <type>select</type>
+  <object-name>vspdminus</object-name>
+  <condition>
+   <less-than>
+    <property>/velocities/vertical-speed-fps</property>
+    <value>0.0</value>
+   </less-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>textranslate</type>
+  <object-name>vspd1</object-name>
+  <property>/velocities/vertical-speed-fps</property>
+  <step>0.0166667</step>
   <interpolation>
    <entry>
-    <ind>-6000</ind>
+    <ind>-100</ind>
+    <dep>600</dep>
+   </entry>
+   <entry>
+    <ind>0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>100</ind>
+    <dep>600</dep>
+   </entry>
+  </interpolation>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>textranslate</type>
+  <object-name>vspd2</object-name>
+  <property>/velocities/vertical-speed-fps</property>
+  <step>0.166667</step>
+  <interpolation>
+   <entry>
+    <ind>-100</ind>
+    <dep>60</dep>
+   </entry>
+   <entry>
+    <ind>0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>100</ind>
+    <dep>60</dep>
+   </entry>
+  </interpolation>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>textranslate</type>
+  <object-name>vspd3</object-name>
+  <property>/velocities/vertical-speed-fps</property>
+  <step>1.66667</step>
+  <interpolation>
+   <entry>
+    <ind>-100</ind>
+    <dep>6</dep>
+   </entry>
+   <entry>
+    <ind>0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>100</ind>
+    <dep>6</dep>
+   </entry>
+  </interpolation>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>textranslate</type>
+  <object-name>vspd4</object-name>
+  <property>/velocities/vertical-speed-fps</property>
+  <step>16.6667</step>
+  <interpolation>
+   <entry>
+    <ind>-100</ind>
+    <dep>0.6</dep>
+   </entry>
+   <entry>
+    <ind>0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>100</ind>
+    <dep>0.6</dep>
+   </entry>
+  </interpolation>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>vsiarrow</object-name>
+  <property>/velocities/vertical-speed-fps</property>
+  <interpolation>
+   <entry>
+    <ind>-100</ind>
     <dep>-75</dep>
    </entry>
    <entry>
-    <ind>-4000</ind>
+    <ind>-66.6667</ind>
     <dep>-71</dep>
    </entry>
    <entry>
-    <ind>-2000</ind>
+    <ind>-33.3333</ind>
     <dep>-70</dep>
    </entry>
    <entry>
-    <ind>-1500</ind>
+    <ind>-25</ind>
     <dep>-65</dep>
    </entry>
    <entry>
-    <ind>-1000</ind>
+    <ind>-16.67</ind>
     <dep>-60</dep>
    </entry>
    <entry>
@@ -33,23 +148,23 @@
     <dep>0</dep>
    </entry>
    <entry>
-    <ind>1000</ind>
+    <ind>16.67</ind>
     <dep>60</dep>
    </entry>
    <entry>
-    <ind>1500</ind>
+    <ind>25</ind>
     <dep>65</dep>
    </entry>
    <entry>
-    <ind>2000</ind>
+    <ind>33.3333</ind>
     <dep>70</dep>
    </entry>
    <entry>
-    <ind>4000</ind>
+    <ind>66.6667</ind>
     <dep>71</dep>
    </entry>
    <entry>
-    <ind>6000</ind>
+    <ind>100</ind>
     <dep>75</dep>
    </entry>
   </interpolation>
@@ -68,30 +183,30 @@
  <animation>
   <type>textranslate</type>
   <object-name>vsiarrow</object-name>
-  <property>/instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
+  <property>/velocities/vertical-speed-fps</property>
   <interpolation>
    <entry>
-    <ind>-6000</ind>
+    <ind>-100</ind>
     <dep>0.035</dep>
    </entry>
    <entry>
-    <ind>-2000</ind>
+    <ind>-33.3333</ind>
     <dep>0.028</dep>
    </entry>
    <entry>
-    <ind>-500</ind>
+    <ind>-8.3333</ind>
     <dep>0</dep>
    </entry>
    <entry>
-    <ind>500</ind>
+    <ind>8.3333</ind>
     <dep>0.0</dep>
    </entry>
    <entry>
-    <ind>2000</ind>
+    <ind>33.3333</ind>
     <dep>0.028</dep>
    </entry>
    <entry>
-    <ind>6000</ind>
+    <ind>100</ind>
     <dep>0.035</dep>
    </entry>
   </interpolation>
