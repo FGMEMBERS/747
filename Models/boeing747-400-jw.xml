@@ -14,9 +14,9 @@
   <path>Aircraft/747/Models/boeing747-400-pfd-jw.xml</path>
   <offsets>
    <x-m>-18.90</x-m>
-   <y-m>-0.53</y-m>
-   <z-m>2.87</z-m>
-   <pitch-deg>-15.0</pitch-deg>
+   <y-m>-0.55</y-m>
+   <z-m>2.885</z-m>
+   <pitch-deg>-20.0</pitch-deg>
   </offsets>
  </model>
 
@@ -24,9 +24,9 @@
   <path>Aircraft/747/Models/boeing747-400-enav-jw.xml</path>
   <offsets>
    <x-m>-18.90</x-m>
-   <y-m>-0.30</y-m>
-   <z-m>2.87</z-m>
-   <pitch-deg>-15.0</pitch-deg>
+   <y-m>-0.338</y-m>
+   <z-m>2.885</z-m>
+   <pitch-deg>-20.0</pitch-deg>
   </offsets>
  </model>
 
@@ -34,9 +34,9 @@
   <path>Aircraft/747/Models/boeing747-400-ai-jw.xml</path>
   <offsets>
    <x-m>-18.94</x-m>
-   <y-m>-0.14</y-m>
+   <y-m>-0.18</y-m>
    <z-m>2.97</z-m>
-   <pitch-deg>-15.0</pitch-deg>
+   <pitch-deg>-20.0</pitch-deg>
   </offsets>
  </model>
 
@@ -44,9 +44,9 @@
   <path>Aircraft/747/Models/boeing747-400-asi-jw.xml</path>
   <offsets>
    <x-m>-18.91</x-m>
-   <y-m>-0.14</y-m>
+   <y-m>-0.18</y-m>
    <z-m>2.88</z-m>
-   <pitch-deg>-15.0</pitch-deg>
+   <pitch-deg>-20.0</pitch-deg>
   </offsets>
  </model>
 
@@ -54,16 +54,16 @@
   <path>Aircraft/747/Models/boeing747-400-alt-jw.xml</path>
   <offsets>
    <x-m>-18.88</x-m>
-   <y-m>-0.14</y-m>
+   <y-m>-0.18</y-m>
    <z-m>2.79</z-m>
-   <pitch-deg>-15.0</pitch-deg>
+   <pitch-deg>-20.0</pitch-deg>
   </offsets>
  </model>
 
  <model>
   <path>Aircraft/747/Models/boeing747-400-mcp-jw.xml</path>
   <offsets>
-   <x-m>-18.9</x-m>
+   <x-m>-18.895</x-m>
    <y-m>-0.057</y-m>
    <z-m>3.1</z-m>
    <pitch-deg>-20.0</pitch-deg>
@@ -73,7 +73,7 @@
  <model>
   <path>Aircraft/747/Models/boeing747-400-efisp-jw.xml</path>
   <offsets>
-   <x-m>-18.9</x-m>
+   <x-m>-18.895</x-m>
    <y-m>-0.32</y-m>
    <z-m>3.1</z-m>
    <pitch-deg>-20.0</pitch-deg>

@@ -76,6 +76,7 @@
   <object-name>apspd1</object-name>
   <property>/autopilot/settings/speed-kt</property>
   <factor>0.10</factor>
+  <step>1.0</step>
   <axis>
    <x>0</x>
    <y>1</y>
@@ -124,6 +125,7 @@
   <type>textranslate</type>
   <object-name>apvspd1</object-name>
   <property>/autopilot/settings/vertical-speed-fpm</property>
+  <step>1.0</step>
   <interpolation>
    <entry>
     <ind>-6000</ind>
@@ -228,6 +230,7 @@
   <object-name>apalt1</object-name>
   <property>/autopilot/settings/altitude-ft</property>
   <factor>0.10</factor>
+  <step>1.0</step>
   <axis>
    <x>0</x>
    <y>1</y>
@@ -292,6 +295,7 @@
   <object-name>aphdg1</object-name>
   <property>/autopilot/settings/heading-bug-deg</property>
   <factor>0.10</factor>
+  <step>1.0</step>
   <axis>
    <x>0</x>
    <y>1</y>
