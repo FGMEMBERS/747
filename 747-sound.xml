@@ -3,7 +3,6 @@
 <PropertyList>
 
  <fx>
- 
   <engine>
    <name>engine</name>
    <path>Sounds/jet.wav</path>
@@ -36,31 +35,67 @@
     <type>ln</type>
     <factor>0.1</factor>
    </volume>
+  </engine>
+
+  <engine>
+   <name>whine</name>
+   <path>Sounds/whine.wav</path>
+   <mode>looped</mode>
+   <condition>
+    <or>
+     <property>/engines/engine[0]/running</property>
+     <property>/engines/engine[1]/running</property>
+     <property>/engines/engine[2]/running</property>
+     <property>/engines/engine[3]/running</property>
+    </or>
+   </condition>
+   <volume>
+    <property>/engines/engine[0]/prop-thrust</property>
+    <type>ln</type>
+    <factor>0.1</factor>
+   </volume>
+   <volume>
+    <property>/engines/engine[1]/prop-thrust</property>
+    <type>ln</type>
+    <factor>0.1</factor>
+   </volume>
+   <volume>
+    <property>/engines/engine[2]/prop-thrust</property>
+    <type>ln</type>
+    <factor>0.1</factor>
+   </volume>
+   <volume>
+    <property>/engines/engine[3]/prop-thrust</property>
+    <type>ln</type>
+    <factor>0.1</factor>
+   </volume>
+
    <pitch>
     <property>/engines/engine[0]/prop-thrust</property>
     <type>log</type>
-    <factor>0.15</factor>
-    <offset>0.9</offset>
+    <factor>0.20</factor>
+    <offset>0.10</offset>
    </pitch>
    <pitch>
     <property>/engines/engine[1]/prop-thrust</property>
     <type>log</type>
-    <factor>0.15</factor>
-    <offset>0.9</offset>
+    <factor>0.20</factor>
+    <offset>0.10</offset>
    </pitch>
    <pitch>
     <property>/engines/engine[2]/prop-thrust</property>
     <type>log</type>
-    <factor>0.15</factor>
-    <offset>0.9</offset>
+    <factor>0.20</factor>
+    <offset>0.10</offset>
    </pitch>
    <pitch>
     <property>/engines/engine[3]/prop-thrust</property>
     <type>log</type>
-    <factor>0.15</factor>
-    <offset>0.9</offset>
+    <factor>0.20</factor>
+    <offset>0.10</offset>
    </pitch>
   </engine>
+
 
   <rumble>
    <name>rumble</name>
@@ -178,3 +213,5 @@
 </fx>
  
 </PropertyList>
+
+
