@@ -526,7 +526,10 @@
   <condition>
   <and>
     <property>/radios/nav[0]/nav-loc</property>
-    <property>/autopilot/locks/nav[0]</property>
+    <equals>
+     <property>/autopilot/locks/heading</property>
+     <value>nav1-hold</value>
+    </equals>
   </and>
   </condition>
  </animation>
@@ -540,7 +543,10 @@
       <property>/radios/nav[0]/nav-loc</property>
       <value>false</value>
     </equals>
-    <property>/autopilot/locks/nav[0]</property>
+    <equals>
+     <property>/autopilot/locks/heading</property>
+     <value>nav1-hold</value>
+    </equals>
   </and>
   </condition>
  </animation>
@@ -549,7 +555,10 @@
   <type>select</type>
   <object-name>gslabel</object-name>
   <condition>
-   <property>/autopilot/locks/glide-slope</property>
+   <equals>
+    <property>/autopilot/locks/altitude</property>
+    <value>gs1-hold</value>
+   </equals>
    <property>/radios/nav[0]/has-gs</property>
   </condition>
  </animation>
@@ -558,7 +567,10 @@
   <type>select</type>
   <object-name>spdlabel</object-name>
   <condition>
-   <property>/autopilot/locks/auto-throttle</property>
+   <equals>
+    <property>/autopilot/locks/speed</property>
+    <value>speed-with-throttle</value>
+   </equals>
   </condition>
  </animation>
 
@@ -566,7 +578,10 @@
   <type>select</type>
   <object-name>hdgsellabel</object-name>
   <condition>
-   <property>/autopilot/locks/heading</property>
+   <equals>
+    <property>/autopilot/locks/heading</property>
+    <value>dg-heading-hold</value>
+   </equals>
   </condition>
  </animation>
 
@@ -574,14 +589,17 @@
   <type>select</type>
   <object-name>altlabel</object-name>
   <condition>
-   <property>/autopilot/locks/altitude</property>
+   <equals>
+    <property>/autopilot/locks/altitude</property>
+    <value>altitude-hold</value>
+   </equals>
   </condition>
  </animation>
 
  <animation>
   <type>textranslate</type>
   <object-name>apspd1</object-name>
-  <property>/autopilot/settings/speed-kt</property>
+  <property>/autopilot/settings/target-speed-kt</property>
   <factor>0.10</factor>
   <step>1.0</step>
   <axis>
@@ -594,7 +612,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>apspd2</object-name>
-  <property>/autopilot/settings/speed-kt</property>
+  <property>/autopilot/settings/target-speed-kt</property>
   <factor>0.01</factor>
   <step>10</step>
   <axis>
@@ -607,7 +625,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>apspd3</object-name>
-  <property>/autopilot/settings/speed-kt</property>
+  <property>/autopilot/settings/target-speed-kt</property>
   <factor>0.001</factor>
   <step>100</step>
   <axis>
@@ -620,7 +638,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>apalt1</object-name>
-  <property>/autopilot/settings/altitude-ft</property>
+  <property>/autopilot/settings/target-altitude-ft</property>
   <factor>0.10</factor>
   <step>1.0</step>
   <axis>
@@ -633,7 +651,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>apalt2</object-name>
-  <property>/autopilot/settings/altitude-ft</property>
+  <property>/autopilot/settings/target-altitude-ft</property>
   <factor>0.01</factor>
   <step>10</step>
   <axis>
@@ -646,7 +664,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>apalt3</object-name>
-  <property>/autopilot/settings/altitude-ft</property>
+  <property>/autopilot/settings/target-altitude-ft</property>
   <factor>0.001</factor>
   <step>100</step>
   <axis>
@@ -659,7 +677,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>apalt4</object-name>
-  <property>/autopilot/settings/altitude-ft</property>
+  <property>/autopilot/settings/target-altitude-ft</property>
   <factor>0.0001</factor>
   <step>1000</step>
   <axis>
@@ -672,7 +690,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>apalt5</object-name>
-  <property>/autopilot/settings/altitude-ft</property>
+  <property>/autopilot/settings/target-altitude-ft</property>
   <factor>0.00001</factor>
   <step>10000</step>
   <axis>
