@@ -32,7 +32,7 @@
   <object-name>GearWingLeftWheels</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-360</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>360</offset-deg>
   <min-deg>0</min-deg>
   <max-deg>80</max-deg>
   <center>
@@ -52,7 +52,7 @@
   <object-name>GearWingLeft</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-90</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>90</offset-deg>
   <center>
    <x-m>4.70</x-m>
    <y-m>-3.70</y-m>
@@ -70,7 +70,7 @@
   <object-name>GearWingRightWheels</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-360</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>360</offset-deg>
   <min-deg>0</min-deg>
   <max-deg>80</max-deg>
   <center>
@@ -90,7 +90,7 @@
   <object-name>GearWingRight</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>90</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>-90</offset-deg>
   <center>
    <x-m>4.70</x-m>
    <y-m>3.70</y-m>
@@ -108,7 +108,7 @@
   <object-name>GearBodyLeftWheels</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-360</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>360</offset-deg>
   <min-deg>0</min-deg>
   <max-deg>80</max-deg>
   <center>
@@ -128,7 +128,7 @@
   <object-name>GearBodyLeft</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-90</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>90</offset-deg>
   <center>
    <x-m>8.35</x-m>
    <y-m>-2.49</y-m>
@@ -146,7 +146,7 @@
   <object-name>GearBodyRightWheels</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-360</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>360</offset-deg>
   <min-deg>0</min-deg>
   <max-deg>80</max-deg>
   <center>
@@ -166,7 +166,7 @@
   <object-name>GearBodyRight</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>90</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>-90</offset-deg>
   <center>
    <x-m>8.35</x-m>
    <y-m>2.49</y-m>
@@ -184,7 +184,7 @@
   <object-name>GearNose</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>90</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>-90</offset-deg>
   <center>
    <x-m>-16.77</x-m>
    <y-m>0.0</y-m>
