@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<PropertyList include="747-base.xml">
+
+ <sim>
+  <description>Boeing 747-100 (JSBSim)</description>
+
+  <flight-model>jsb</flight-model>
+  <aero>747-100</aero>
+ </sim>
+
+ <engines>
+  <engine n="0">
+   <running>true</running>
+  </engine>
+  <engine n="1">
+   <running>true</running>
+  </engine>
+  <engine n="2">
+   <running>true</running>
+  </engine>
+  <engine n="3">
+   <running>true</running>
+  </engine>
+ </engines>
+
+</PropertyList>
