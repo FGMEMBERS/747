@@ -66,6 +66,14 @@
    <setting>1.000</setting> <!-- Flaps 30: landing -->
   </flaps>
 
+  <help>
+   <title>Boeing 747</title>
+   <key>
+    <name>j/k</name>
+    <desc>decrease/increase spoilers</desc>
+   </key>
+  </help>
+
  </sim>
 
  <autopilot>

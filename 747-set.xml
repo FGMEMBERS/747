@@ -7,6 +7,10 @@
 
   <flight-model>yasim</flight-model>
   <aero>747</aero>
+
+  <help>
+   <title>Boeing 747-400</title>
+  </help>
  </sim>
 
 </PropertyList>

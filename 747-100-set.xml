@@ -6,6 +6,10 @@
 
   <flight-model>jsb</flight-model>
   <aero>747-100</aero>
+
+  <help>
+   <title>Boeing 747-100</title>
+  </help>
  </sim>
 
  <engines>
