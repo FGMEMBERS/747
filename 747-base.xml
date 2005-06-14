@@ -10,10 +10,6 @@
    <autopilot>
      <path>Aircraft/747/747-autopilot.xml</path>
    </autopilot>
-
-   <electrical>
-    <path>Aircraft/Generic/generic-electrical.xml</path>
-   </electrical>
   </systems> 
   
   <sound>
