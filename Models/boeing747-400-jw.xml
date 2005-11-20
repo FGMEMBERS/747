@@ -99,7 +99,6 @@
  <animation>
   <type>select</type>
   <object-name>GearWingLeft</object-name>
-  <object-name>GearWingRight</object-name>
   <condition>
    <greater-than>
     <property>/gear/gear[1]/position-norm</property>
@@ -110,7 +109,22 @@
 
  <animation>
   <type>select</type>
+  <object-name>GearWingRight</object-name>
+  <condition>
+   <greater-than>
+    <property>/gear/gear[4]/position-norm</property>
+    <value>0.1</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
   <object-name>FuselageBottomGearDown</object-name>
+  <object-name>GearWellLeft</object-name>
+  <object-name>GearWellLeftSide</object-name>
+  <object-name>GearWellRight</object-name>
+  <object-name>GearWellRightSide</object-name>
   <condition>
    <greater-than>
     <property>/gear/gear[1]/position-norm</property>
@@ -137,11 +151,11 @@
   <condition>
    <and>
    <greater-than>
-    <property>/gear/gear[1]/position-norm</property>
+    <property>/gear/gear[0]/position-norm</property>
     <value>0.01</value>
    </greater-than>
    <less-than>
-    <property>/gear/gear[1]/position-norm</property>
+    <property>/gear/gear[0]/position-norm</property>
     <value>0.99</value>
    </less-than>
    </and>
@@ -152,6 +166,16 @@
   <type>select</type>
   <object-name>GearNoseSmallDoorLeft</object-name>
   <object-name>GearNoseSmallDoorRight</object-name>
+  <condition>
+   <greater-than>
+    <property>/gear/gear[0]/position-norm</property>
+    <value>0.01</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
   <object-name>WingLeftGearBay</object-name>
   <object-name>WingRightGearBay</object-name>
   <object-name>GearDoorWingLeftOuter</object-name>
@@ -182,11 +206,11 @@
   <condition>
    <and>
    <greater-than>
-    <property>/gear/gear[1]/position-norm</property>
+    <property>/gear/gear[0]/position-norm</property>
     <value>0.1</value>
    </greater-than>
    <less-than>
-    <property>/gear/gear[1]/position-norm</property>
+    <property>/gear/gear[0]/position-norm</property>
     <value>0.95</value>
    </less-than>
    </and>
@@ -198,7 +222,7 @@
   <object-name>GearNoseWellSmall</object-name>
   <condition>
    <greater-than>
-    <property>/gear/gear[1]/position-norm</property>
+    <property>/gear/gear[0]/position-norm</property>
     <value>0.1</value>
    </greater-than>
   </condition>
@@ -278,7 +302,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorWingLeftInner</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -317,7 +341,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorWingLeftMiddle</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -356,7 +380,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorWingLeftMiddle</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -393,7 +417,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorWingLeftOuter</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -493,7 +517,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorWingRightInner</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[3]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -532,7 +556,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorWingRightMiddle</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[3]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -571,7 +595,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorWingRightMiddle</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[3]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -608,7 +632,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorWingRightOuter</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[4]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -633,7 +657,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearWingRightWheels</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[4]/position-norm</property>
   <factor>-360</factor>
   <offset-deg>360</offset-deg>
   <min-deg>0</min-deg>
@@ -653,7 +677,7 @@
  <animation>
   <type>translate</type>
   <object-name>GearWingRightWheels</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[4]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -678,7 +702,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearWingRight</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[4]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -734,7 +758,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearBodyLeftWheels</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[2]/position-norm</property>
   <factor>-360</factor>
   <offset-deg>360</offset-deg>
   <min-deg>0</min-deg>
@@ -754,7 +778,7 @@
  <animation>
   <type>translate</type>
   <object-name>GearBodyLeftWheels</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[2]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -779,7 +803,7 @@
  <animation>
   <type>translate</type>
   <object-name>GearBodyLeftMainStrut</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[2]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -804,9 +828,9 @@
  <animation>
   <type>translate</type>
   <object-name>GearBodyLeft</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[2]/position-norm</property>
   <factor>-2.0</factor>
-  <offset-m>-1.0</offset-m>
+  <offset-m>2.0</offset-m>
   <axis>
    <x>0</x>
    <y>0</y>
@@ -817,7 +841,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearBodyLeft</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[2]/position-norm</property>
   <factor>-100</factor>
   <offset-deg>100</offset-deg>
   <center>
@@ -836,7 +860,7 @@
   <type>rotate</type>
   <object-name>GearDoorBodyLeftOuterFront</object-name>
   <object-name>GearDoorBodyLeftMiddleFront</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[2]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -873,7 +897,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorBodyLeftInner</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[2]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -901,7 +925,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorBodyLeftOuter</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[2]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -929,7 +953,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearBodyRightWheels</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[3]/position-norm</property>
   <factor>-360</factor>
   <offset-deg>360</offset-deg>
   <min-deg>0</min-deg>
@@ -949,7 +973,7 @@
  <animation>
   <type>translate</type>
   <object-name>GearBodyRightWheels</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[3]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -974,7 +998,7 @@
  <animation>
   <type>translate</type>
   <object-name>GearBodyRightMainStrut</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[3]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -999,9 +1023,9 @@
  <animation>
   <type>translate</type>
   <object-name>GearBodyRight</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[3]/position-norm</property>
   <factor>-2.0</factor>
-  <offset-m>-1.0</offset-m>
+  <offset-m>2.0</offset-m>
   <axis>
    <x>0</x>
    <y>0</y>
@@ -1012,7 +1036,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearBodyRight</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[3]/position-norm</property>
   <factor>-100</factor>
   <offset-deg>100</offset-deg>
   <center>
@@ -1031,7 +1055,7 @@
   <type>rotate</type>
   <object-name>GearDoorBodyRightOuterFront</object-name>
   <object-name>GearDoorBodyRightMiddleFront</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[3]/position-norm</property>
   <offset-deg>0</offset-deg>
   <interpolation>
     <entry>
@@ -1068,7 +1092,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorBodyRightInner</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[3]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -1096,7 +1120,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearDoorBodyRightOuter</object-name>
-  <property>gear/gear[0]/position-norm</property>
+  <property>gear/gear[3]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
@@ -1124,7 +1148,7 @@
  <animation>
   <type>rotate</type>
   <object-name>GearNose</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>/gear/gear[0]/position-norm</property>
   <interpolation>
     <entry>
      <ind>0.0</ind>
