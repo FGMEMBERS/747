@@ -193,7 +193,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>dmel1</object-name>
-  <property>/instrumentation/dme[0]/distance-nm</property>
+  <property>/instrumentation/dme[0]/indicated-distance-nm</property>
   <factor>1.00</factor>
   <step>0.1</step>
   <axis>
@@ -206,7 +206,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>dmel2</object-name>
-  <property>/instrumentation/dme[0]/distance-nm</property>
+  <property>/instrumentation/dme[0]/indicated-distance-nm</property>
   <factor>0.10</factor>
   <step>1</step>
   <axis>
@@ -219,7 +219,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>dmel3</object-name>
-  <property>/instrumentation/dme[0]/distance-nm</property>
+  <property>/instrumentation/dme[0]/indicated-distance-nm</property>
   <factor>0.01</factor>
   <step>10</step>
   <axis>
@@ -232,7 +232,7 @@
  <animation>
   <type>textranslate</type>
   <object-name>dmel4</object-name>
-  <property>/instrumentation/dme[0]/distance-nm</property>
+  <property>/instrumentation/dme[0]/indicated-distance-nm</property>
   <factor>0.001</factor>
   <step>100</step>
   <axis>
