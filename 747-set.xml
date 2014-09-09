@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PropertyList include="747-base.xml">
+
+ <sim>
+  <description>Boeing 747-400 (YASim)</description>
+  <author>Jim Wilson (3D), Andy Ross (FDM)</author>
+
+  <flight-model>yasim</flight-model>
+  <aero>747</aero>
+
+  <help>
+   <title>Boeing 747-400</title>
+  </help>
+ </sim>
+
+</PropertyList>
