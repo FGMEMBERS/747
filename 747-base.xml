@@ -20,7 +20,7 @@
   </sound>
 
   <panel>
-   <path>Aircraft/c310/c310-vfr-panel.xml</path>
+   <path>Aircraft/747/Models/Panels/747-vfr-panel.xml</path>
    <visibility>false</visibility>
   </panel>
 
